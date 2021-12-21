@@ -18,12 +18,26 @@ h1 {
   margin-bottom: 40px;
 }
 
-.item {
+.item1,
+.item2,
+.item3 {
   float: right;
-  background-color: rgb(125, 224, 19);
+  border: black 1px solid;
   font-weight: bold;
   font-size: 30px;
   padding: 5px;
+}
+
+.item1 {
+  background-color: rgb(226, 136, 71);
+}
+
+.item2 {
+  background-color: rgba(105, 182, 212, 0.753);
+}
+
+.item3 {
+  background-color: rgba(139, 0, 0, 0.37);
 }
 
 .content {
@@ -34,7 +48,7 @@ section {
   position: relative;
   margin-left: 10px;
   margin-right: 10px;
-  border: rgb(31, 28, 28) 1px dashed;
+  border: rgb(31, 28, 28) 1px solid;
   margin-bottom: 17px;
   text-align: justify;
   background-color: rgba(147, 212, 182, 0.678);
